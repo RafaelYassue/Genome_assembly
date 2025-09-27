@@ -1,0 +1,64 @@
+# ================================
+# Bioinformatics heavy data
+# ================================
+# FASTQ / FASTA grandes
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fasta
+*.fna
+*.fa
+*.fa.gz
+
+# BAM/CRAM/SAM
+*.bam
+*.bam.bai
+*.cram
+*.crai
+*.sam
+
+# VCF
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+
+# Assemblies
+assembly_*/
+medaka_*/
+flye_*/
+canu_*/
+spades_*/
+
+# Quality control outputs
+qc_*/
+reports/
+multiqc_data/
+multiqc_report.html
+
+# Intermediários pesados
+*.rds
+*.npz
+*.hdf5
+*.pickle
+*.pkl
+*.npy
+
+# Pastas de dados crus
+raw_fastq/
+trimmed/
+align/
+counts/
+variants/
+barcode*/
+
+# ================================
+# General
+# ================================
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.~
